@@ -13,9 +13,9 @@ public class GLrenderer implements GLSurfaceView.Renderer {
     private FloatBuffer mTriangleBuffer;
     private FloatBuffer mColorBuffer;
     private float[] mTriangleArray = {
-            0f, 1f, 0f,
+            0f, 1f, (float) Math.sqrt(2),
             -1f, -1f, 0f,
-            1f, -1f, 0f
+            1f, -1f, 0f,
     };
 
     private float[] mColor = new float[]{
